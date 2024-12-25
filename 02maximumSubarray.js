@@ -1,3 +1,4 @@
+// this is the in the O(n**2)
 var maxSubArray = function (nums) {
   let maxSum = -Infinity;
   for (let i = 0; i < nums.length; i++) {
@@ -12,9 +13,7 @@ var maxSubArray = function (nums) {
   return maxSum;
 };
 
-// this is the in the O(n**2)
-// need to work on the kadane's algo
-
+// need to work on the kadane's algo O(n)
 var maxSubArray = function (nums) {
   let sum = 0;
   let maxSum = nums[0];
